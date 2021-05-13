@@ -1,0 +1,693 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="sass/style.css">
+    <title>FlexiBlog</title>
+
+    <link rel="shortcut icon" type="image" href="./img/css3.svg">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" />
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg pl-5 pr-5 pt-5 pb-5">
+        <a class="navbar-brand ml-5" href="#"><img src="./img/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+                <i class="fas fa-bars"></i>
+            </span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <form class="form-inline my-2 my-lg-0 m-auto">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit"><i
+                        class="fas fa-search"></i></button>
+            </form>
+            <ul class="navbar-nav mr-5 justify-content-center">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Tutors</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+
+            <div class="black-white" id="b-w">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-circle" id="circleJS"></i>
+                <i class="fas fa-sun"></i>
+            </div>
+        </div>
+    </nav>
+
+    <div class="section1 container-fluid p-5 d-flex flex-column justify-content-center align-items-center">
+        <div class="rowmain row mt-5 mb-5" id="rowsec1">
+            <div class="col-lg-6 content">
+                <div class="header row pt-5">
+                    <h2>Learn React in 30 days with great instructors!</h2>
+                </div> <br> <br>
+                <div class="text row">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et.</p>
+                </div> <br>
+                <div class="buttons row pb-5 pl-5">
+                    <button class="btn1" style="color: white;">Start Learning</button>
+                    <button class="btn2">View Tutors</button>
+                </div>
+            </div>
+            <div class="col-lg-6 img">
+                <div class="rowimg row p-2">
+                    <div class="col-md-3">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <div class="col-md-3">
+                        <p class="count">250+</p>
+                        <p class="txt">LESSONS</p>
+                    </div>
+                    <div class="col-md-3">
+                        <p class="count">30+</p>
+                        <p class="txt">COURSES</p>
+                    </div>
+                    <div class="col-md-3">
+                        <p class="count">15+</p>
+                        <p class="txt">TUTORS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section2 container">
+        <div class="header row pb-5" id="headsec2" data-aos="fade-right">
+            <div class="line"></div>
+            <h2>Featured this month</h2>
+        </div>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img src="./img/css.jpg" alt="">
+                <div class="content">
+                    <div class="row1 row pt-4 pl-4">
+                        <button style="background-color: #2965F1;">CSS3</button>
+                    </div>
+                    <div class="row2 row pl-4 pt-2">
+                        <h3>Magic Flip Cards <br> Solving A Common <br> Sizing Problem</h3>
+                    </div>
+                    <div class="row3 row pl-4 pt-3 pb-3">
+                        <div class="img"><a href=""><img src="./img/john-doe.png" alt=""></a></div>
+                        <div class="row3-1 pl-3 row flex-column justify-content-around">
+                            <div class="name row">
+                                <p>John Doe</p>
+                            </div>
+                            <div class="date row">
+                                <p>March 20, 2020 </p>
+                                <p style="margin-left: 10px;"><i class="far fa-clock"></i> 1 min</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><div class="item">
+                <img src="./img/css.jpg" alt="">
+                <div class="content">
+                    <div class="row1 row pt-4 pl-4">
+                        <button style="background-color: #2965F1;">CSS3</button>
+                    </div>
+                    <div class="row2 row pl-4 pt-2">
+                        <h3>Magic Flip Cards <br> Solving A Common <br> Sizing Problem</h3>
+                    </div>
+                    <div class="row3 row pl-4 pt-3 pb-3">
+                        <div class="img"><a href=""><img src="./img/john-doe.png" alt=""></a></div>
+                        <div class="row3-1 pl-3 row flex-column justify-content-around">
+                            <div class="name row">
+                                <p>John Doe</p>
+                            </div>
+                            <div class="date row">
+                                <p>March 20, 2020 </p>
+                                <p style="margin-left: 10px;"><i class="far fa-clock"></i> 1 min</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./img/gatsby2.jpg" alt="">
+                <div class="content">
+                    <div class="row1 row pt-4 pl-4">
+                        <button style="background-color: #663399;">Gatsby</button>
+                    </div>
+                    <div class="row2 row pl-4 pt-4">
+                        <h3>Programmatically <br> Create Pages From Data</h3>
+                    </div>
+                    <div class="row3 row pl-4 pt-3 pb-3">
+                        <div class="img"><a href=""><img src="./img/john-doe.png" alt=""></a></div>
+                        <div class="row3-1 pl-3 row flex-column justify-content-around">
+                            <div class="name row">
+                                <p>John Doe</p>
+                            </div>
+                            <div class="date row">
+                                <p>March 20, 2020 </p>
+                                <p style="margin-left: 10px;"><i class="far fa-clock"></i> 1 min</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./img/gatsby2.jpg" alt="">
+                <div class="content">
+                    <div class="row1 row pt-4 pl-4">
+                        <button style="background-color: #663399;">Gatsby</button>
+                    </div>
+                    <div class="row2 row pl-4 pt-4">
+                        <h3>Programmatically <br> Create Pages From Data</h3>
+                    </div>
+                    <div class="row3 row pl-4 pt-3 pb-3">
+                        <div class="img"><a href=""><img src="./img/john-doe.png" alt=""></a></div>
+                        <div class="row3-1 pl-3 row flex-column justify-content-around">
+                            <div class="name row">
+                                <p>John Doe</p>
+                            </div>
+                            <div class="date row">
+                                <p>March 20, 2020 </p>
+                                <p style="margin-left: 10px;"><i class="far fa-clock"></i> 1 min</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+            <div class="item">
+                <img src="./img/react.png" alt="">
+                <div class="content">
+                    <div class="row1 row pt-4 pl-4">
+                        <button style="background-color: #4299e1;">React</button>
+                    </div>
+                    <div class="row2 row pl-4 pt-4">
+                        <h3>How to use React <br> Context effectively</h3>
+                    </div>
+                    <div class="row3 row pl-4 pt-3 pb-3">
+                        <div class="img"><a href=""><img src="./img/john-doe.png" alt=""></a></div>
+                        <div class="row3-1 pl-3 row flex-column justify-content-around">
+                            <div class="name row">
+                                <p>John Doe</p>
+                            </div>
+                            <div class="date row">
+                                <p>March 20, 2020 </p>
+                                <p style="margin-left: 10px;"><i class="far fa-clock"></i> 1 min</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="section3 container-fluid p-5 d-flex flex-column justify-content-center align-items-center">
+        <div class="rowmain row mt-5 mb-5" id="rowsec1">
+            <div class="col-lg-4 img" id="sec3img">
+                <img src="./img/testimonial.png" alt="">
+            </div>
+            <div class="col-lg-8 content">
+                <div class="row1 row pb-2" id="sec3row1">
+                    <h2>You Can Learn Anything</h2>
+                </div> <br>
+                <div class="row2 row pr-5 pb-1" id="sec3row2">
+                    <p>"When I got out of university, I couldn't get a job. But now, I have a job and I am in love with computer science because of Academy."</p>
+                </div> <br>
+                <div class="row3 row" id="sec3row3">
+                    <span>Aubree Joyce</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section4 section container">
+        <div class="header row pb-5" id="headsec4">
+            <div class="left" data-aos="fade-right">
+                <div class="line"></div>
+                <h2>CSS3</h2>
+            </div>
+            <div class="right" data-aos="fade-left">
+                <button>View More</button>
+            </div>
+        </div>
+
+        <div class="roww row1 row" id="sec4row1">
+            <div class="card mb-3 card-left l1" style="max-width: 540px;">
+                <div class="row no-gutters">
+                  <div class="col-md-4 imgcol">
+                    <img src="./img/css3.svg" alt="..." style="object-fit: cover; object-position: center;">
+                    <p class="head">CSS Tips</p>
+                  </div>
+                  <div class="col-md-8 bdy">
+                    <div class="card-body">
+                      <button>CSS3</button>
+                      <p class="card-text txt1">30 Useful CSS Examples For Logically Creative Minds</p>
+                     <div class="row justify-content-between">
+                        <p class="card-text p1"><small class="text-muted">John Doe</small></p>
+                        <p class="card-text p2"><small class="text-muted">July 15, 2020</small></p>
+                     </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3 card-right l2" style="max-width: 540px;">
+                <div class="row no-gutters">
+                  <div class="col-md-4 imgcol">
+                    <img src="./img/css3.svg" alt="..." style="object-fit: cover; object-position: center;">
+                    <p class="head">CSS Tips</p>
+                  </div>
+                  <div class="col-md-8 bdy">
+                    <div class="card-body">
+                      <button>CSS3</button>
+                      <p class="card-text txt1">30 Useful CSS Examples For Logically Creative Minds</p>
+                     <div class="row justify-content-between">
+                        <p class="card-text p1"><small class="text-muted">John Doe</small></p>
+                        <p class="card-text p2"><small class="text-muted">July 15, 2020</small></p>
+                     </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="roww row2 row" id="sec4row2">
+            <div class="card mb-3 card-left l3" style="max-width: 540px;">
+                <div class="row no-gutters">
+                  <div class="col-md-4 imgcol">
+                    <img src="./img/css3.svg" alt="..." style="object-fit: cover; object-position: center;">
+                    <p class="head">CSS Tips</p>
+                  </div>
+                  <div class="col-md-8 bdy">
+                    <div class="card-body">
+                      <button>CSS3</button>
+                      <p class="card-text txt1">30 Useful CSS Examples For Logically Creative Minds</p>
+                     <div class="row justify-content-between">
+                        <p class="card-text p1"><small class="text-muted">John Doe</small></p>
+                        <p class="card-text p2"><small class="text-muted">July 15, 2020</small></p>
+                     </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3 card-right l4" style="max-width: 540px;">
+                <div class="row no-gutters">
+                  <div class="col-md-4 imgcol">
+                    <img src="./img/css3.svg" alt="..." style="object-fit: cover; object-position: center;">
+                    <p class="head">CSS Tips</p>
+                  </div>
+                  <div class="col-md-8 bdy">
+                    <div class="card-body">
+                      <button>CSS3</button>
+                      <p class="card-text txt1">30 Useful CSS Examples For Logically Creative Minds</p>
+                     <div class="row justify-content-between">
+                        <p class="card-text p1"><small class="text-muted">John Doe</small></p>
+                        <p class="card-text p2"><small class="text-muted">July 15, 2020</small></p>
+                     </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+
+    <div class="section5 section container">
+        <div class="header row pb-5 pt-5" id="headsec4">
+            <div class="left" data-aos="fade-right">
+                <div class="line"></div>
+                <h2>CSS3</h2>
+            </div>
+            <div class="right" data-aos="fade-left">
+                <button>View More</button>
+            </div>
+        </div>
+
+        <div class="roww row1 row" id="sec5row1">
+            <div class="card mb-3 card-left l5" style="max-width: 540px;" >
+                <div class="row no-gutters">
+                  <div class="col-md-4 imgcol">
+                    <img src="./img/css3.svg" alt="..." style="object-fit: cover; object-position: center;">
+                    <p class="head">CSS Tips</p>
+                  </div>
+                  <div class="col-md-8 bdy">
+                    <div class="card-body">
+                      <button>CSS3</button>
+                      <p class="card-text txt1">30 Useful CSS Examples For Logically Creative Minds</p>
+                     <div class="row justify-content-between">
+                        <p class="card-text p1"><small class="text-muted">John Doe</small></p>
+                        <p class="card-text p2"><small class="text-muted">July 15, 2020</small></p>
+                     </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3 card-right l6" style="max-width: 540px;">
+                <div class="row no-gutters">
+                  <div class="col-md-4 imgcol">
+                    <img src="./img/css3.svg" alt="..." style="object-fit: cover; object-position: center;">
+                    <p class="head">CSS Tips</p>
+                  </div>
+                  <div class="col-md-8 bdy">
+                    <div class="card-body">
+                      <button>CSS3</button>
+                      <p class="card-text txt1">30 Useful CSS Examples For Logically Creative Minds</p>
+                     <div class="row justify-content-between">
+                        <p class="card-text p1"><small class="text-muted">John Doe</small></p>
+                        <p class="card-text p2"><small class="text-muted">July 15, 2020</small></p>
+                     </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="roww row2 row" id="sec5row2">
+            <div class="card mb-3 card-left l7" style="max-width: 540px;">
+                <div class="row no-gutters">
+                  <div class="col-md-4 imgcol">
+                    <img src="./img/css3.svg" alt="..." style="object-fit: cover; object-position: center;">
+                    <p class="head">CSS Tips</p>
+                  </div>
+                  <div class="col-md-8 bdy">
+                    <div class="card-body">
+                      <button>CSS3</button>
+                      <p class="card-text txt1">30 Useful CSS Examples For Logically Creative Minds</p>
+                     <div class="row justify-content-between">
+                        <p class="card-text p1"><small class="text-muted">John Doe</small></p>
+                        <p class="card-text p2"><small class="text-muted">July 15, 2020</small></p>
+                     </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3 card-right l8" style="max-width: 540px;">
+                <div class="row no-gutters">
+                  <div class="col-md-4 imgcol">
+                    <img src="./img/css3.svg" alt="..." style="object-fit: cover; object-position: center;">
+                    <p class="head">CSS Tips</p>
+                  </div>
+                  <div class="col-md-8 bdy">
+                    <div class="card-body">
+                      <button>CSS3</button>
+                      <p class="card-text txt1">30 Useful CSS Examples For Logically Creative Minds</p>
+                     <div class="row justify-content-between">
+                        <p class="card-text p1"><small class="text-muted">John Doe</small></p>
+                        <p class="card-text p2"><small class="text-muted">July 15, 2020</small></p>
+                     </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+
+
+    <div class="section6 section container">
+        <div class="header row pb-5 pt-5" id="headsec4">
+            <div class="left" data-aos="fade-right">
+                <div class="line"></div>
+                <h2>CSS3</h2>
+            </div>
+            <div class="right" data-aos="fade-left">
+                <button>View More</button>
+            </div>
+        </div>
+
+        <div class="roww row1 row" id="sec6row1">
+            <div class="card mb-3 card-left l9" style="max-width: 540px;">
+                <div class="row no-gutters">
+                  <div class="col-md-4 imgcol">
+                    <img src="./img/css3.svg" alt="..." style="object-fit: cover; object-position: center;">
+                    <p class="head">CSS Tips</p>
+                  </div>
+                  <div class="col-md-8 bdy">
+                    <div class="card-body">
+                      <button>CSS3</button>
+                      <p class="card-text txt1">30 Useful CSS Examples For Logically Creative Minds</p>
+                     <div class="row justify-content-between">
+                        <p class="card-text p1"><small class="text-muted">John Doe</small></p>
+                        <p class="card-text p2"><small class="text-muted">July 15, 2020</small></p>
+                     </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3 card-right l10" style="max-width: 540px;">
+                <div class="row no-gutters">
+                  <div class="col-md-4 imgcol">
+                    <img src="./img/css3.svg" alt="..." style="object-fit: cover; object-position: center;">
+                    <p class="head">CSS Tips</p>
+                  </div>
+                  <div class="col-md-8 bdy">
+                    <div class="card-body">
+                      <button>CSS3</button>
+                      <p class="card-text txt1">30 Useful CSS Examples For Logically Creative Minds</p>
+                     <div class="row justify-content-between">
+                        <p class="card-text p1"><small class="text-muted">John Doe</small></p>
+                        <p class="card-text p2"><small class="text-muted">July 15, 2020</small></p>
+                     </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="roww row2 row" id="sec6row2">
+            <div class="card mb-3 card-left l11" style="max-width: 540px;">
+                <div class="row no-gutters">
+                  <div class="col-md-4 imgcol">
+                    <img src="./img/css3.svg" alt="..." style="object-fit: cover; object-position: center;">
+                    <p class="head">CSS Tips</p>
+                  </div>
+                  <div class="col-md-8 bdy">
+                    <div class="card-body">
+                      <button>CSS3</button>
+                      <p class="card-text txt1">30 Useful CSS Examples For Logically Creative Minds</p>
+                     <div class="row justify-content-between">
+                        <p class="card-text p1"><small class="text-muted">John Doe</small></p>
+                        <p class="card-text p2"><small class="text-muted">July 15, 2020</small></p>
+                     </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3 card-right l12" style="max-width: 540px;">
+                <div class="row no-gutters">
+                  <div class="col-md-4 imgcol">
+                    <img src="./img/css3.svg" alt="..." style="object-fit: cover; object-position: center;">
+                    <p class="head">CSS Tips</p>
+                  </div>
+                  <div class="col-md-8 bdy">
+                    <div class="card-body">
+                      <button>CSS3</button>
+                      <p class="card-text txt1">30 Useful CSS Examples For Logically Creative Minds</p>
+                     <div class="row justify-content-between">
+                        <p class="card-text p1"><small class="text-muted">John Doe</small></p>
+                        <p class="card-text p2"><small class="text-muted">July 15, 2020</small></p>
+                     </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+
+
+
+    <div class="section7 section container">
+        <div class="header row pb-5 pt-5" id="headsec4">
+            <div class="left" data-aos="fade-right">
+                <div class="line"></div>
+                <h2>CSS3</h2>
+            </div>
+            <div class="right" data-aos="fade-left">
+                <button>View More</button>
+            </div>
+        </div>
+
+        <div class="roww row1 row" id="sec7row1">
+            <div class="card mb-3 card-left l13" style="max-width: 540px;">
+                <div class="row no-gutters">
+                  <div class="col-md-4 imgcol">
+                    <img src="./img/css3.svg" alt="..." style="object-fit: cover; object-position: center;">
+                    <p class="head">CSS Tips</p>
+                  </div>
+                  <div class="col-md-8 bdy">
+                    <div class="card-body">
+                      <button>CSS3</button>
+                      <p class="card-text txt1">30 Useful CSS Examples For Logically Creative Minds</p>
+                     <div class="row justify-content-between">
+                        <p class="card-text p1"><small class="text-muted">John Doe</small></p>
+                        <p class="card-text p2"><small class="text-muted">July 15, 2020</small></p>
+                     </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3 card-right l14" style="max-width: 540px;">
+                <div class="row no-gutters">
+                  <div class="col-md-4 imgcol">
+                    <img src="./img/css3.svg" alt="..." style="object-fit: cover; object-position: center;">
+                    <p class="head">CSS Tips</p>
+                  </div>
+                  <div class="col-md-8 bdy">
+                    <div class="card-body">
+                      <button>CSS3</button>
+                      <p class="card-text txt1">30 Useful CSS Examples For Logically Creative Minds</p>
+                     <div class="row justify-content-between">
+                        <p class="card-text p1"><small class="text-muted">John Doe</small></p>
+                        <p class="card-text p2"><small class="text-muted">July 15, 2020</small></p>
+                     </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="roww row2 row" id="sec7row2">
+            <div class="card mb-3 card-left l15" style="max-width: 540px;">
+                <div class="row no-gutters">
+                  <div class="col-md-4 imgcol">
+                    <img src="./img/css3.svg" alt="..." style="object-fit: cover; object-position: center;">
+                    <p class="head">CSS Tips</p>
+                  </div>
+                  <div class="col-md-8 bdy">
+                    <div class="card-body">
+                      <button>CSS3</button>
+                      <p class="card-text txt1">30 Useful CSS Examples For Logically Creative Minds</p>
+                     <div class="row justify-content-between">
+                        <p class="card-text p1"><small class="text-muted">John Doe</small></p>
+                        <p class="card-text p2"><small class="text-muted">July 15, 2020</small></p>
+                     </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3 card-right l16" style="max-width: 540px;">
+                <div class="row no-gutters">
+                  <div class="col-md-4 imgcol">
+                    <img src="./img/css3.svg" alt="..." style="object-fit: cover; object-position: center;">
+                    <p class="head">CSS Tips</p>
+                  </div>
+                  <div class="col-md-8 bdy">
+                    <div class="card-body">
+                      <button>CSS3</button>
+                      <p class="card-text txt1">30 Useful CSS Examples For Logically Creative Minds</p>
+                     <div class="row justify-content-between">
+                        <p class="card-text p1"><small class="text-muted">John Doe</small></p>
+                        <p class="card-text p2"><small class="text-muted">July 15, 2020</small></p>
+                     </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+
+
+    <div class="section8 container d-flex flex-column justify-content-center pt-5 pb-5 mt-5">
+        <div class="mainrow row flex-column" id="rowsec8">
+            <div class="row1 row pb-3 pt-2 justify-content-center text-center">
+                <h3>Subscribe to our newsletter!</h3>
+            </div>
+            <div class="row2 row justify-content-center text-center pb-4">
+                <p>We'll send you the best of our blog just once a month. We promise.</p>
+            </div> <br>
+            <div class="row3 row justify-content-center">
+                <input type="email" placeholder="Email Address">
+            </div><br>
+            <div class="row4 row justify-content-center">
+                <button>Subscribe</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="footer container-fluid pb-5" style="background-color: white; margin-top: 100px;">
+      <div class="container">
+        <div class="rowmain row">
+          <div class="col-lg-3 col-sm-6 col1 justify-content-center align-items-center pt-5">
+            <img class="logo" src="./img/logo.png" alt=""> <br> <br>
+            <p class="p1"><i class="far fa-copyright"></i>  2021, All Rights Reserved</p> <br><br>
+            <a>Powered by <img class="gatsby" src="./img/Gatsby-Logo.svg" alt=""></a>
+          </div>
+          <div class="col-lg-3 col-sm-6 column col2 pt-5">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="">Advertise with us</a></li>
+              <li><a href="">About Us</a></li>
+              <li><a href="">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-sm-6 column col3 pt-5">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="">Advertise with us</a></li>
+              <li><a href="">About Us</a></li>
+              <li><a href="">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-sm-6 column col4 pt-5">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="">Advertise with us</a></li>
+              <li><a href="">About Us</a></li>
+              <li><a href="">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+        });
+      </script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
